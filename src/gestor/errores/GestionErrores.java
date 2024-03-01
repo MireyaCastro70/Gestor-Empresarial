@@ -8,39 +8,25 @@ public final class GestionErrores {
     private String descripcionTecnica;
 
     public GestionErrores() {
-        cargarErrores();
+
     }
 
     private void cargarErrores() {
-        error.put(1, "Error 1");
-        error.put(2, "Error 2");
+
     }
 
     public void setNoError(int codigoError, String descripcion) {
-        if (error.containsKey(codigoError)) {
-            this.noError = codigoError;
-            this.descripcionTecnica = descripcion;
-            existeError = true;
-        } else {
-            // Error: Código de error no encontrado
-            // Aquí podrías manejar esta situación según tus necesidades
-        }
+
     }
 
     public String getError() {
-        if (existeError) {
-            return error.get(noError);
-        } else {
-            return "No hay error";
-        }
+
+        return null;
     }
 
     public String getErrorTecnico() {
-        if (existeError) {
-            return descripcionTecnica;
-        } else {
-            return "No hay error técnico";
-        }
+
+        return null;
     }
 
     public boolean existeError() {

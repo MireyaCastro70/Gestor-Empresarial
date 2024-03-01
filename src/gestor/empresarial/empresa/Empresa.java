@@ -29,9 +29,7 @@ public final class Empresa {
     }
 
     public String getInfo() {
-        return "Nombre de la empresa: " + nombreEmpresa + "\n" +
-                "Representante legal: " + representanteLegal + "\n" +
-                "Teléfono: " + telefono + "\n" +
-                "RFC: " + rfc;
+
+        return null;
     }
 }
